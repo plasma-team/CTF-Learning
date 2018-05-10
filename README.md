@@ -1,4 +1,4 @@
-# Learning CTF
+# CTF Learning
 From zero to hero
 
 ### List for learning
