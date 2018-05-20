@@ -13,5 +13,9 @@ From zero to hero
 
 ### Format Writeup
 ```
-{category}/{site}_{title}
+.
+└── {category}
+    └── {sites}
+        └── {challenges}
+            └── README.md
 ```
