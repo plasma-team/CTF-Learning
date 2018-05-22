@@ -9,12 +9,12 @@
 	// create directory from A-Z, a-z, 0,9, etc..
 	$alpha = array_merge(range('A', 'Z'), range('a', 'z'), range(0, 9), str_split("!@#$%^&*()-_=+"));
 	foreach ($alpha as $str) {
-	    $dict[] = ((((ord($str) << 5) | (ord($str) >> 3)) ^ 111) & 255);
+	  $dict[] = ((((ord($str) << 5) | (ord($str) >> 3)) ^ 111) & 255);
 	}
 
 	// solver
 	foreach ([233, 129, 9, 5, 130, 194, 195, 39, 75, 229] as $u) {
-		echo $alpha[array_search($u, $dict)];
+	  echo $alpha[array_search($u, $dict)];
 	}
 	```
 
